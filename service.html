@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff7200;
+            margin-bottom: 20px;
+        }
+
+        .course-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            list-style: none;
+            margin-top: 30px;
+        }
+
+        .course-list li {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            background-color: #ff7200;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .course-list li:hover {
+            background-color: #e65200;
+        }
+
+        .course-list li span {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .course-list li p {
+            font-size: 16px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <a href="webpage.html"> <h1>SERVICE</h1></a>
+        <ul class="course-list">
+            <li>
+                <span>Web Design</span>
+                <p>$5000</p>
+            </li>
+            <li>
+                <span>C Language</span>
+                <p>$3000</p>
+            </li>
+            <li>
+                <span>C++</span>
+                <p>$4000</p>
+            </li>
+            <li>
+                <span>JavaScript</span>
+                <p>$3500</p>
+            </li>
+            <li>
+                <span>Python</span>
+                <p>$4500</p>
+            </li>
+            <li>
+                <span>HTML & CSS</span>
+                <p>$2500</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
